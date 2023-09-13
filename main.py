@@ -32,7 +32,7 @@ while True:
   ask2 = input('\033[5mEnter the color here: \033[0m')
   print()
   while ask2 not in colors:
-    print('\033[1;31mPlease select a color from the available colors: red, green, yellow, blue, purple, cyan, normal, gray\033[0m')
+    print('\033[1;31mPlease select a color from the available colors: red, green, yellow, blue, purple, cyan, normal, gray.\033[0m')
     print()
     ask2 = input('\033[5mEnter the color here: \033[0m')
     print()
